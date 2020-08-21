@@ -16,18 +16,18 @@ Here is a brief guide to using it.
 The points I changed and custormized.
 - Logo size (css)
 - Section: Hero 
-  The limit number of photos on top page (section-hero.php, template-tags.php, customizer.php) 
+    - The limit number of photos on top page (section-hero.php, template-tags.php, customizer.php) 
 - Section: Service
-  Layouts of content (4 contents locate as 2 rows 2 columns except for mobile layout)(section-service.php) 
+    - Layouts of content (4 contents locate as 2 rows 2 columns except for mobile layout)(section-service.php) 
 - Section: News
-  Thumnails' setting (thumnails disappear when "@media screen and (max-width: 940px)" on the original theme) (section-service.php) 
+    - Thumnails' setting (thumnails disappear when "@media screen and (max-width: 940px)" on the original theme) (section-service.php) 
 - Footer
-  How to describe copyright, the place of footer widgets (footer.php)
+    - How to describe copyright, the place of footer widgets (footer.php)
 - Portfolio page
-  Depend on the category, show the different carousel gallery. (templage-portfolio.php, function.php)
-  Need to activate [Meta Box](https://metabox.io/).
+    - Depend on the category, show the different carousel gallery. (templage-portfolio.php, function.php)
+    Need to activate [Meta Box](https://metabox.io/).
 - MetaBox setting
-  Since the new block editor, Gutenberg, became a default editor, the place of custom fields is on the wrong position especially at OnePress. I added css in the header of admin page.(function.php)
-  In general, we can not control show/hide of custom fields without an extra package, I added Javascript for hiding MetaBox except template-portfolio.php)(admin.js)
+    - Since the new block editor, Gutenberg, became a default editor, the place of custom fields is on the wrong position especially at OnePress. I added css in the      header of admin page.(function.php)
+    - In general, we can not control show/hide of custom fields without an extra package, I added Javascript for hiding MetaBox except template-portfolio.php)(admin.js)
 - Other changes...
   
